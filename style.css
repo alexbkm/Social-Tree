@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --body-bg-color: #0c0a0a;
+    --purple: #125518;
+  }
+
+body {
+    display: flex;
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contains {
+    width: 326px;
+    text-align:center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px auto;
+}
+
+.contains figure {
+    margin-bottom: 20px;
+}
+
+.contains span {
+    width: 190px;
+    height: 190px;
+
+    border-radius: 50%;
+    border: 2px solid var(--purple);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contains figure span img {
+    width: 180px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.contains figure figcaption {
+    font-size: 1rem;
+    margin: 15px 0 0;
+}
+
+.contains .links {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contains .links a {
+    height: 49px;
+    line-height: 49px;
+    margin: 0 5px 16px;
+
+    border: 2px solid var(--purple);
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.contains .net {
+    width: 100%;
+    margin: 20px 0 0;
+    padding: 10px 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contains .net img {
+    width: 24px;
+    margin: 0 5px;
+}
+
